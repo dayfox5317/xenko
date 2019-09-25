@@ -20,6 +20,7 @@ Thank you everybody for your generous contributions!
 * Jean-Baptiste Perrier
 * Cody Lee
 * Nicolas Musset
+* [Félix Dion-Robidoux](http://www.fdrobidoux.com)
 
 ## Backers
 
@@ -58,6 +59,8 @@ Thank you everybody for your generous contributions!
 * Jorn Theunissen
 * Robin Hübner
 * Ben Temple-Heald
+* Daniel Gilbert
+* Stefan Sailer
 
 ## Mini Backers
 
