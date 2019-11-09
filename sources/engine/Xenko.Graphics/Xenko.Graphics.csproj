@@ -5,7 +5,7 @@
     <XenkoGraphicsApiDependent>true</XenkoGraphicsApiDependent>
   </PropertyGroup>
   <Import Project="..\..\targets\Xenko.PreSettings.targets" />
-  <Import Project="Sdk.props" Sdk="MSBuild.Sdk.Extras" Version="2.0.24" />
+  <Import Project="Sdk.props" Sdk="MSBuild.Sdk.Extras" Version="2.0.54" />
   <PropertyGroup>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
@@ -198,9 +198,9 @@
     <ProjectReference Include="..\Xenko.Native\Xenko.Native.csproj" />
     <ProjectReference Include="..\Xenko.Shaders\Xenko.Shaders.csproj" />
     <ProjectReference Include="..\Xenko\Xenko.csproj" />
-    <PackageReference Include="SharpDX.Direct3D11" Version="4.0.1" Condition="'$(XenkoPlatform)' == 'Windows' Or '$(XenkoPlatform)' == 'UWP'" />
-    <PackageReference Include="SharpDX.Direct3D12" Version="4.0.1" Condition="'$(XenkoPlatform)' == 'Windows'" />
-    <PackageReference Include="SharpDX.D3DCompiler" Version="4.0.1" Condition="'$(XenkoPlatform)' == 'Windows' Or '$(XenkoPlatform)' == 'UWP'" />
+    <PackageReference Include="SharpDX.Direct3D11" Version="4.2.0" Condition="'$(XenkoPlatform)' == 'Windows' Or '$(XenkoPlatform)' == 'UWP'" />
+    <PackageReference Include="SharpDX.Direct3D12" Version="4.2.0" Condition="'$(XenkoPlatform)' == 'Windows'" />
+    <PackageReference Include="SharpDX.D3DCompiler" Version="4.2.0" Condition="'$(XenkoPlatform)' == 'Windows' Or '$(XenkoPlatform)' == 'UWP'" />
     <PackageReference Include="Xenko.OpenTK" Version="1.0.2" Condition="'$(XenkoPlatform)' == 'Windows' Or '$(XenkoPlatform)' == 'Linux' Or '$(XenkoPlatform)' == 'iOS' Or '$(XenkoPlatform)' == 'Android'" />
   </ItemGroup>
   <ItemGroup>
@@ -289,7 +289,7 @@
   </ItemGroup>
   <Import Project="..\Xenko.Shared\Refactor\Xenko.Refactor.projitems" Label="Shared" />
   <Import Project="$(XenkoPostSettingsTargets)" />
-  <Import Project="Sdk.targets" Sdk="MSBuild.Sdk.Extras" Version="2.0.24" />
+  <Import Project="Sdk.targets" Sdk="MSBuild.Sdk.Extras" Version="2.0.54" />
 
   <PropertyGroup>
     <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);IncludeExtraAssemblies</TargetsForTfmSpecificBuildOutput>
